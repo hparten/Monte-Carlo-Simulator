@@ -98,6 +98,18 @@ To analyze a game:
 
 # Manifest 
 
-
+```bash
+├── LICENSE
+├── README.md
+├── Scenarios.ipynb
+├── montecarlo
+│   ├── __init__.py
+│   └── montecarlo.py
+├── montecarlo_test_results.txt
+├── setup.py
+└── tests
+    ├── __init__.py
+    └── montecarlo_test.py
+```
 
 
