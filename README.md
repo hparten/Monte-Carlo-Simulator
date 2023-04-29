@@ -5,6 +5,10 @@
 
 *project author:* **Hallie Parten** 
 
+*project description:* A package that allows you to select and analyze the outcome of a random event based on a variety of input parameters
+
+
+
 # Synopsis
 
 To install the classes in the package: 
