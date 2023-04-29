@@ -6,7 +6,7 @@ setup(
     author = 'Hallie Parten',
     author_email = 'zsk4gm@virginia.edu',
     url = 'https://github.com/hparten/final_drop',
-    packages = ['simulator', 'tests'],
+    packages = ['montecarlo'],
     license = 'MIT License',
     description = 'A package that allows you to select and analyze the outcome of a random event based on a variety of input parameters',
 )
