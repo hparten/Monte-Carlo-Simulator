@@ -124,7 +124,7 @@ class Analyzer:
         '''Takes a game object as its input parameter. At initialization time, it also infers the data type of the die faces used as an attribute.
         '''
         self.game = game 
-        self.dtype_dice = [] #does the dtype of the die faces have to be the same to use Analyzer class?
+        self.dtype_dice = [] 
         for i in self.game.dice: 
             dtype = type(i.faces[0])
             self.dtype_dice.append(dtype)
@@ -152,7 +152,6 @@ class Analyzer:
         combo_copy = self.game.show_results().copy()
         self.combo_results = combo_copy.groupby(list(combo_copy.columns)).size().to_frame('counts').sort_values('counts', ascending=False)
         self.combo_count = len(self.combo_results)
-        #self.combo_results = combo_copy.value_counts().to_frame('counts')
     
     def face_counts_per_roll(self):
         '''A method to compute how many times a given face is rolled in each event. 
