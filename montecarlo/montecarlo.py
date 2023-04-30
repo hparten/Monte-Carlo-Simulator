@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import numbers
 
-class Die():
+class Die:
     '''A die has N sides, or faces, and W weights, and can be rolled to select a face.
     W defaults to 1.0 for each face but can be changed after the object is created.
     The die has one behavior, which is to be rolled one or more times.
@@ -58,7 +58,7 @@ class Die():
         return self._die_
        
 
-class Game():
+class Game:
     '''A game consists of rolling of one or more dice of the same kind one or more times.
     Each game is initialized with one or more of similarly defined (same # of sides and associated faces) dice (Die objects).
     The class has a behavior to play a game, i.e. to rolls all of the dice a given number of times.
@@ -104,7 +104,7 @@ class Game():
         else: 
             raise ValueError('You must specifiy you form as "W" for wide and "N" for narrow')
     
-class Analyzer(): 
+class Analyzer: 
     '''An analyzer takes the results of a single game and computes various descriptive statistical properties about it. 
     These properties results are available as attributes of an Analyzer object.
     
