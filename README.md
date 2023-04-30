@@ -99,12 +99,13 @@ To analyze a game:
 # Manifest 
 
 ```bash
+├── FinalProjectSubmission_Parten.ipynb
 ├── LICENSE
 ├── README.md
-├── Scenarios.ipynb
 ├── montecarlo
 │   ├── __init__.py
 │   └── montecarlo.py
+├── montecarlo_demo.ipynb
 ├── montecarlo_test_results.txt
 ├── setup.py
 └── tests
